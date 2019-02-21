@@ -47,7 +47,7 @@ class App extends Component {
                       <img
                         className='card-img-top img-fluid'
                         src={authors[1].imageUrl}
-                        alt={authors[1].first_name}
+                        alt={authors[1].first_name + authors[1].last_name}
                       />
                     </div>
                     <div className='card-body'>
@@ -68,7 +68,7 @@ class App extends Component {
                       <img
                         className='card-img-top img-fluid'
                         src={authors[2].imageUrl}
-                        alt={authors[2].first_name}
+                        alt={authors[2].first_name + authors[2].last_name}
                       />
                     </div>
                     <div className='card-body'>
@@ -89,7 +89,7 @@ class App extends Component {
                       <img
                         className='card-img-top img-fluid'
                         src={authors[3].imageUrl}
-                        alt={authors[3].first_name}
+                        alt={authors[3].first_name + authors[3].last_name}
                       />
                     </div>
                     <div className='card-body'>
